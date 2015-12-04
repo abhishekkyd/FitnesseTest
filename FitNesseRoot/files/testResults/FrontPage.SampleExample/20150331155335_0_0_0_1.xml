@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>FrontPage.SampleExample</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <runTimeInMillis>5</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;classpath: E:\Automation\Workspace\StaterFitnesse\src\test\java\com\fitnesse\fixture\&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;import&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: import.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;com.fitnesse.fixture&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+ &lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3" class="error"&gt;Division Program&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: DivisionProgram.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Numerator&lt;/td&gt;
+		&lt;td&gt;Denominator&lt;/td&gt;
+		&lt;td&gt;quotient?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;5.0&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;12.6&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;4.2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;22&lt;/td&gt;
+		&lt;td&gt;7&lt;/td&gt;
+		&lt;td&gt;~=3.14&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;9&lt;/td&gt;
+		&lt;td&gt;3&lt;/td&gt;
+		&lt;td&gt;&amp;lt;5&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;11&lt;/td&gt;
+		&lt;td&gt;2&lt;/td&gt;
+		&lt;td&gt;&amp;lt;6&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;10&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;10.0&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>SampleExample</relativePageName>
+          </result>
+      <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>5</totalRunTimeInMillis>
+  
+</testResults>
+

@@ -1,0 +1,8 @@
+
+!3 !-fit:fit.FitServer-!
+|'''Date: '''| 3:16:24 PM (IST) on Tuesday, March 31, 2015 |
+|'''Test Page: '''|.MyTest|
+|'''Command: '''| !-"C:\Program Files\Java\jdk1.7.0_71\bin\java" -cp C:\Users\ABHISHEK1\.m2\repository\org\fitnesse\fitnesse\20150114\fitnesse-20150114.jar;defaultPath fit.FitServer ABHISHEK 55940 3863-! |
+|'''Exit code: '''| 1 |
+|'''Time elapsed: '''| 0.355 seconds |
+

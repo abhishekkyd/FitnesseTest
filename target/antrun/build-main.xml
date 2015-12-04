@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo message="Starting FitNesse ... )" taskname="fitnesse"/>
+  <java fork="true" classname="fitnesseMain.FitNesseMain" classpathref="maven.test.classpath">
+    <jvmarg line="-DFITNESSE_PATH=E:\Automation\Workspace\TestFitnesse"/>
+    <jvmarg line="-Dmaven.home=${MAVEN_HOME}"/>
+    <arg line="-p 8282"/>
+    <arg line="-d ."/>
+    <arg line="-e 0"/>
+  </java>
+</target>
+</project>

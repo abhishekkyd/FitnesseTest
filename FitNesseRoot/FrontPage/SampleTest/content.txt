@@ -1,0 +1,11 @@
+!define TEST_SYSTEM {slim}
+!path E:\Automation\Workspace\TestFitnesse\target\test-classes
+
+|import      |
+|com.fitnesse|
+ 
+!|Fitnesse Test         |
+|string1|string2|equals?|
+|abc    |abc    |true   |
+|abc    |xyz    |false  |
+|abc    |xyz    |true   |

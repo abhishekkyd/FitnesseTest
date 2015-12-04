@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>FrontPage.SampleExample</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>6</exceptions>
+    </counts>
+    <runTimeInMillis>144</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;classpath: E:\Automation\Workspace\StaterFitnesse\target\test-classes&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;import&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;&lt;span class="pass"&gt;com.fitnesse.fixture&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+ &lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="3"&gt;&lt;span class="pass"&gt;Division Program&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Numerator&lt;/td&gt;
+		&lt;td&gt;Denominator&lt;/td&gt;
+		&lt;td&gt;quotient?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="exception closed"&gt;
+		&lt;td class="error"&gt;10&lt;/td&gt;
+		&lt;td class="error"&gt;2&lt;/td&gt;
+		&lt;td class="error"&gt;5.0&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: com/biz/calculator/Calculator
+	at com.fitnesse.fixture.DivisionProgram.quotient(DivisionProgram.java:20) [file:/E:/Automation/Workspace/StaterFitnesse/target/test-classes/]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_71]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52) [fitnesse-20150114.jar]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:20) [fitnesse-20150114.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:123) [fitnesse-20150114.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:101) [fitnesse-20150114.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-20150114.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:30) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:83) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:107) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:94) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:41) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:168) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:176) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:138) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:66) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:52) [fitnesse-20150114.jar]
+Caused by: java.lang.ClassNotFoundException: com.biz.calculator.Calculator
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366) [rt.jar:1.7.0_71]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355) [rt.jar:1.7.0_71]
+	at java.security.AccessController.doPrivileged(Native Method) [rt.jar:1.7.0_71]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354) [rt.jar:1.7.0_71]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425) [rt.jar:1.7.0_71]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308) [rt.jar:1.7.0_71]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358) [rt.jar:1.7.0_71]
+	at com.fitnesse.fixture.DivisionProgram.quotient(DivisionProgram.java:20) [file:/E:/Automation/Workspace/StaterFitnesse/target/test-classes/]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_71]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52) [fitnesse-20150114.jar]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:20) [fitnesse-20150114.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:123) [fitnesse-20150114.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:101) [fitnesse-20150114.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-20150114.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:30) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:83) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:107) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:94) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:41) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:168) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:176) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:138) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:66) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:52) [fitnesse-20150114.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="exception closed"&gt;
+		&lt;td class="error"&gt;12.6&lt;/td&gt;
+		&lt;td class="error"&gt;3&lt;/td&gt;
+		&lt;td class="error"&gt;4.2&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: com/biz/calculator/Calculator
+	at com.fitnesse.fixture.DivisionProgram.quotient(DivisionProgram.java:20) [file:/E:/Automation/Workspace/StaterFitnesse/target/test-classes/]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_71]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52) [fitnesse-20150114.jar]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:20) [fitnesse-20150114.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:123) [fitnesse-20150114.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:101) [fitnesse-20150114.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-20150114.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:30) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:83) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:107) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:94) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:41) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:168) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:176) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:138) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:66) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:52) [fitnesse-20150114.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="exception closed"&gt;
+		&lt;td class="error"&gt;22&lt;/td&gt;
+		&lt;td class="error"&gt;7&lt;/td&gt;
+		&lt;td class="error"&gt;~=3.14&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: com/biz/calculator/Calculator
+	at com.fitnesse.fixture.DivisionProgram.quotient(DivisionProgram.java:20) [file:/E:/Automation/Workspace/StaterFitnesse/target/test-classes/]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_71]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52) [fitnesse-20150114.jar]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:20) [fitnesse-20150114.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:123) [fitnesse-20150114.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:101) [fitnesse-20150114.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-20150114.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:30) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:83) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:107) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:94) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:41) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:168) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:176) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:138) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:66) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:52) [fitnesse-20150114.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="exception closed"&gt;
+		&lt;td class="error"&gt;9&lt;/td&gt;
+		&lt;td class="error"&gt;3&lt;/td&gt;
+		&lt;td class="error"&gt;&amp;lt;5&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: com/biz/calculator/Calculator
+	at com.fitnesse.fixture.DivisionProgram.quotient(DivisionProgram.java:20) [file:/E:/Automation/Workspace/StaterFitnesse/target/test-classes/]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_71]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52) [fitnesse-20150114.jar]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:20) [fitnesse-20150114.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:123) [fitnesse-20150114.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:101) [fitnesse-20150114.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-20150114.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:30) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:83) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:107) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:94) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:41) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:168) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:176) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:138) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:66) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:52) [fitnesse-20150114.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="exception closed"&gt;
+		&lt;td class="error"&gt;11&lt;/td&gt;
+		&lt;td class="error"&gt;2&lt;/td&gt;
+		&lt;td class="error"&gt;&amp;lt;6&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: com/biz/calculator/Calculator
+	at com.fitnesse.fixture.DivisionProgram.quotient(DivisionProgram.java:20) [file:/E:/Automation/Workspace/StaterFitnesse/target/test-classes/]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_71]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52) [fitnesse-20150114.jar]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:20) [fitnesse-20150114.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:123) [fitnesse-20150114.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:101) [fitnesse-20150114.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-20150114.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:30) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:83) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:107) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:94) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:41) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:168) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:176) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:138) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:66) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:52) [fitnesse-20150114.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;tr class="exception closed"&gt;
+		&lt;td class="error"&gt;10&lt;/td&gt;
+		&lt;td class="error"&gt;1&lt;/td&gt;
+		&lt;td class="error"&gt;10.0&lt;/td&gt;
+	&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td colspan="3"&gt;&lt;pre&gt;__EXCEPTION__:java.lang.NoClassDefFoundError: com/biz/calculator/Calculator
+	at com.fitnesse.fixture.DivisionProgram.quotient(DivisionProgram.java:20) [file:/E:/Automation/Workspace/StaterFitnesse/target/test-classes/]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_71]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_71]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_71]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_71]
+	at fitnesse.slim.fixtureInteraction.DefaultInteraction.methodInvoke(DefaultInteraction.java:16) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.callMethod(MethodExecutor.java:43) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.invokeMethod(MethodExecutor.java:30) [fitnesse-20150114.jar]
+	at fitnesse.slim.MethodExecutor.findAndInvoke(MethodExecutor.java:52) [fitnesse-20150114.jar]
+	at fitnesse.slim.FixtureMethodExecutor.execute(FixtureMethodExecutor.java:20) [fitnesse-20150114.jar]
+	at fitnesse.slim.StatementExecutor.getMethodExecutionResult(StatementExecutor.java:123) [fitnesse-20150114.jar]
+	at fitnesse.slim.StatementExecutor.call(StatementExecutor.java:101) [fitnesse-20150114.jar]
+	at fitnesse.slim.instructions.CallInstruction.executeInternal(CallInstruction.java:35) [fitnesse-20150114.jar]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:30) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-20150114.jar]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:83) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:107) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.processTheInstructions(SlimServer.java:94) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:69) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:55) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:41) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.handle(SlimService.java:168) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:176) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.accept(SlimService.java:138) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:66) [fitnesse-20150114.jar]
+	at fitnesse.slim.SlimService.main(SlimService.java:52) [fitnesse-20150114.jar]&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>SampleExample</relativePageName>
+            <instructions>
+            <instructionResult>
+        <instruction>{id='import_0_0', instruction='import', path='com.fitnesse.fixture'}</instruction>
+        <slimResult>pass(com.fitnesse.fixture)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>import_0_0</instructionId>
+                    <col>0</col>
+                              <row>1</row>
+                    <type>ImportExpectation</type>
+                                        <evaluationMessage>com.fitnesse.fixture</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_0', instruction='make', instanceName='decisionTable_1', className='DivisionProgram', args=[]}</instruction>
+        <slimResult>pass(Division Program)</slimResult>
+                <expectation>
+                    <status>pass</status>
+                    <instructionId>decisionTable_1_0</instructionId>
+                    <col>0</col>
+                              <row>0</row>
+                    <type>ConstructionExpectation</type>
+                                        <evaluationMessage>Division Program</evaluationMessage>
+                  </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_4', instruction='call', instanceName='decisionTable_1', methodName='setNumerator', args=[10]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_4</instructionId>
+                    <col>0</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_5', instruction='call', instanceName='decisionTable_1', methodName='setDenominator', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_5</instructionId>
+                    <col>1</col>
+                              <row>2</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_7', instruction='call', instanceName='decisionTable_1', methodName='quotient', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_7</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_9', instruction='call', instanceName='decisionTable_1', methodName='setNumerator', args=[12.6]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_9</instructionId>
+                    <col>0</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_10', instruction='call', instanceName='decisionTable_1', methodName='setDenominator', args=[3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_10</instructionId>
+                    <col>1</col>
+                              <row>3</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_12', instruction='call', instanceName='decisionTable_1', methodName='quotient', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_12</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_14', instruction='call', instanceName='decisionTable_1', methodName='setNumerator', args=[22]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_14</instructionId>
+                    <col>0</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_15', instruction='call', instanceName='decisionTable_1', methodName='setDenominator', args=[7]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_15</instructionId>
+                    <col>1</col>
+                              <row>4</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_17', instruction='call', instanceName='decisionTable_1', methodName='quotient', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_17</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_19', instruction='call', instanceName='decisionTable_1', methodName='setNumerator', args=[9]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_19</instructionId>
+                    <col>0</col>
+                              <row>5</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_20', instruction='call', instanceName='decisionTable_1', methodName='setDenominator', args=[3]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_20</instructionId>
+                    <col>1</col>
+                              <row>5</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_22', instruction='call', instanceName='decisionTable_1', methodName='quotient', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_22</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_24', instruction='call', instanceName='decisionTable_1', methodName='setNumerator', args=[11]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_24</instructionId>
+                    <col>0</col>
+                              <row>6</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_25', instruction='call', instanceName='decisionTable_1', methodName='setDenominator', args=[2]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_25</instructionId>
+                    <col>1</col>
+                              <row>6</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_27', instruction='call', instanceName='decisionTable_1', methodName='quotient', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_27</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_29', instruction='call', instanceName='decisionTable_1', methodName='setNumerator', args=[10]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_29</instructionId>
+                    <col>0</col>
+                              <row>7</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_30', instruction='call', instanceName='decisionTable_1', methodName='setDenominator', args=[1]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <instructionId>decisionTable_1_30</instructionId>
+                    <col>1</col>
+                              <row>7</row>
+                    <type>VoidReturnExpectation</type>
+                                      </expectation>
+              </instructionResult>
+            <instructionResult>
+        <instruction>{id='decisionTable_1_32', instruction='call', instanceName='decisionTable_1', methodName='quotient', args=[]}</instruction>
+        <slimResult></slimResult>
+                <expectation>
+                    <status>error</status>
+                    <instructionId>decisionTable_1_32</instructionId>
+                              <type>ReturnedValueExpectation</type>
+                                      </expectation>
+              </instructionResult>
+          </instructions>
+      </result>
+      <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>144</totalRunTimeInMillis>
+  
+</testResults>
+

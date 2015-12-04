@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20150114</FitNesseVersion>
+  <rootPath>FrontPage.MyTest</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>2</exceptions>
+    </counts>
+    <runTimeInMillis>3</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.SetUp"&gt;.FrontPage.SetUp&lt;/a&gt; &lt;a href="FrontPage.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td class="error"&gt;import&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: import.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;info.fitnesse.fixturegallery&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4" class="error"&gt;info.fitnesse.fixturegallery.ColumnFixtureTest&lt;hr/&gt; &lt;span class="fit_label"&gt;Could not find fixture: info.fitnesse.fixturegallery.ColumnFixtureTest.&lt;/span&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;firstPart&lt;/td&gt;
+		&lt;td&gt;secondPart&lt;/td&gt;
+		&lt;td&gt;together?&lt;/td&gt;
+		&lt;td&gt;totalLength?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Hello&lt;/td&gt;
+		&lt;td&gt;World&lt;/td&gt;
+		&lt;td&gt;Hello, World&lt;/td&gt;
+		&lt;td&gt;10&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;Houston&lt;/td&gt;
+		&lt;td&gt;We Have a Problem&lt;/td&gt;
+		&lt;td&gt;Houston, We Have a Problem&lt;/td&gt;
+		&lt;td&gt;24&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>MyTest</relativePageName>
+          </result>
+      <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>3</totalRunTimeInMillis>
+  
+</testResults>
+
